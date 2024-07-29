@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #1e3a5f, #008080);
+}
+
+td {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#h1 {
+    text-align: center;
+}
+
+#btn {
+    width: 5rem;
+    height: 2rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #2f4f4f;
+}
+
+.table {
+    width: 20rem;
+    height: 20rem;
+}
